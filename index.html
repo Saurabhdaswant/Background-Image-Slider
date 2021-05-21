@@ -6,34 +6,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vanila JS Carousel</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
-    <div class="carousel">
-        <button class="carousel__button carousel__button--left"> left </button>
-        <div class="carousel__track-container">
-            <ul class="carousel__track">
-                <li class="carousel__slide current-slide">
-                    <img src="/img/img__one.png" width="500 alt="">
-                </li>
-                <li class=" carousel__slide">
-                    <img src="/img/img__two.jpg" width="500 alt="">
-                </li>
-                <li class=" carousel__slide">
-                    <img src="/img/img__three.png" width="500 alt="">
-            </ul>
-        </div>
-        <button class=" carousel__button carousel__button--right">right</button>
+    <div class="center">
+        <div class="carousel">
+            <button class="carousel__button carousel__button--left">
+                < </button> <div class="carousel__track-container">
+                    <ul class="carousel__track">
+                        <li class="carousel__slide current-slide">
+                            <img src="/img/img__one.png" width="500 alt="">
+                    </li>
+                    <li class=" carousel__slide">
+                            <img src="/img/img__two.jpg" width="500 alt="">
+                    </li>
+                    <li class=" carousel__slide">
+                            <img src="/img/img__three.png" width="500 alt="">
+                </ul>
+            </div>
+            <button class=" carousel__button carousel__button--right">>
+            </button>
 
-                    <!-- <div class="carousel__nav">
-            <button class="carousel__indicator current-slide"></button>
-            <button class="carousel__indicator"></button>
-            <button class="carousel__indicator"></button>
-        </div> -->
+            <!-- <div class="carousel__nav">
+                <button class="carousel__indicator current-slide"></button>
+                <button class="carousel__indicator"></button>
+                <button class="carousel__indicator"></button>
+            </div> -->
         </div>
+    </div>
 
-        <script src="/script.js"></script>
+    <script src="/script.js"></script>
 </body>
 
 </html>
